@@ -30,4 +30,4 @@ phases:
       - npm ci
   build:
     commands:
-      - npx cypress-cloud run --record --parallel --ci-build-id demo-aws-codebuild-001
+      - npx cypress-cloud run --record --parallel --ci-build-id $CODEBUILD_BUILD_ID
