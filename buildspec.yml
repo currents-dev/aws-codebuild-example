@@ -10,10 +10,11 @@ batch:
   #         IMAGE: public.ecr.aws/cypress-io/cypress/browsers:node16.14.2-slim-chrome100-ff99-edge
   build-matrix:
     dynamic:
+      buildspec:
+        - buildspec.yml
+        - buildspec.yml
       env:
         variables:
-          GROUP:
-            - 1
           WORKERS:
             - 1
             - 2
