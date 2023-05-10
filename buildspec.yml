@@ -9,10 +9,8 @@ batch:
         variables:
           IMAGE: public.ecr.aws/cypress-io/cypress/browsers:node12.14.1-chrome85-ff81
   build-matrix:
-    # ...
     dynamic:
       env:
-        # ...
         variables:
           WORKERS:
             - 1
@@ -36,10 +34,6 @@ phases:
       - export COMMIT_INFO_SHA="$(git log -1 --pretty=%H)"
       - export COMMIT_INFO_REMOTE="$(git config --get remote.origin.url)"
       - npm ci
-  pre_build:
-    commands:
-      - npm run cy:verify
-      - npm run cy:info
   build:
     commands:
       - npx cypress-cloud run --record --parallel --ci-build-id
