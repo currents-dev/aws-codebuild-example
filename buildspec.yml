@@ -30,4 +30,5 @@ phases:
       - npm ci
   build:
     commands:
+      - printenv
       - npx cypress-cloud run --record --parallel --ci-build-id $CODEBUILD_BUILD_ID
