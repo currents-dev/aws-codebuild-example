@@ -31,4 +31,4 @@ phases:
   build:
     commands:
       - printenv
-      - npx cypress-cloud run --record --parallel --ci-build-id $CODEBUILD_BUILD_ID
+      - npx cypress-cloud run --record --parallel --ci-build-id $CODEBUILD_INITIATOR
