@@ -7,7 +7,6 @@ batch:
     dynamic:
       buildspec:
         - buildspec.yml
-        - buildspec.yml
       env:
         variables:
           WORKERS:
