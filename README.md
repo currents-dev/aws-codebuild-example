@@ -1,5 +1,7 @@
 # Currents.dev - AWS CodeBuild Example
 
+The full guide: https://currents.dev/readme/ci-setup/aws-code-build
+
 This is an example repository that showcases using [Currents.dev](https://currents.dev) for running parallel cypress tests using AWS CodeBuild CI
 
 The example [buildspec.yml](https://github.com/currents-dev/aws-codebuild-example/blob/main/buildspec.yml) defines a configuration for running cypress tests in parallel mode using 3 workers in [matrix mode](https://docs.aws.amazon.com/codebuild/latest/userguide/batch-build.html#batch_build_matrix). The example is designed to be executed within a [batch build](https://docs.aws.amazon.com/codebuild/latest/userguide/batch-build.html).
