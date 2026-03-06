@@ -1,3 +1,14 @@
+# ⚠️ ARCHIVED REPOSITORY ⚠️
+
+> **This repository is now archived and read-only.**
+>
+> For the latest examples and updates, please visit our new repository:
+>
+> # [👉 https://github.com/currents-dev/currents-examples](https://github.com/currents-dev/currents-examples/tree/main/cypress/aws-codebuild)
+
+---
+
+
 # Currents.dev - AWS CodeBuild Example
 
 The full guide: https://currents.dev/readme/ci-setup/aws-code-build
